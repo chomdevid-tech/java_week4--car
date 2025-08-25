@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Driving Car</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scene">
+        <div class="car" id="car">
+          <div class="car-body">
+            <div class="headlight on" id ="headLight"></div>
+            <div class="window"></div>
+          </div>
+          <div class="wheels">
+            <div class="wheel wheel-front"></div>
+            <div class="wheel wheel-back"></div>
+          </div>
+        </div>
+        <div class="road">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="left-btn">Go Left</button>
+        <button id="right-btn">Go Right</button>
+        <button id="light-btn">Toggle Headlight</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
